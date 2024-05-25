@@ -1,0 +1,22 @@
+{
+    "name": "bookshelf-api",
+    "version": "1.0.0",
+    "description": "Belajar Membuat Aplikasi Back-End untuk Pemula dengan Google Cloud",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/server.js",
+        "start-dev": "nodemon src/server.js"
+    },
+    "keywords": [
+        "Bookshelf API",
+        "Belajar Membuat Aplikasi Back-End untuk Pemula dengan Google Cloud"
+    ],
+    "author": "Muhammad Ikhsan Mandirri",
+    "license": "ISC",
+    "dependencies": {
+        "@hapi/hapi": "^21.3.9",
+        "dotenv": "^16.4.5",
+        "nanoid": "^5.0.7"
+    }
+}
